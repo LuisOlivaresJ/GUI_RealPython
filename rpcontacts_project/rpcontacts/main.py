@@ -4,7 +4,7 @@
 """This module provides RP Contacts application."""
 
 import sys
-from PyQt6.QtWidgets import QApplication
+from PySide6.QtWidgets import QApplication
 
 from .database import createConnection
 from .views import Window

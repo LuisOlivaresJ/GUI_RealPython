@@ -5,8 +5,8 @@
     Models communicate with and access the data in the database. Any change in a model updates the database immediately. 
 """
 
-from PyQt6.QtCore import Qt
-from PyQt6.QtSql import QSqlTableModel
+from PySide6.QtCore import Qt
+from PySide6.QtSql import QSqlTableModel
 
 class ContactsModel:
     def __init__(self):

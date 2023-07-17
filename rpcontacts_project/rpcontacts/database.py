@@ -3,9 +3,9 @@
 
 """This module provides a database connection."""
 
-from PyQt6.QtWidgets import QMessageBox
-from PyQt6.QtSql import QSqlDatabase
-from PyQt6.QtSql import QSqlQuery
+from PySide6.QtWidgets import QMessageBox
+from PySide6.QtSql import QSqlDatabase
+from PySide6.QtSql import QSqlQuery
 
 def createConnection(databaseName):
     """Create and open a database connection.
