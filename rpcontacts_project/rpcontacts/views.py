@@ -51,6 +51,8 @@ class Window(QMainWindow):
         self.addButton.clicked.connect(self.openAddDialog)
         self.deleteButton = QPushButton("Delete")
         self.deleteButton.clicked.connect(self.deleteContact)
+        #self.exportButton = QPushButton("Export")
+        #self.exportButton.clicked.connect(self.exportContact)
         self.clearAllButton = QPushButton("Clear All")
         self.clearAllButton.clicked.connect(self.clearContacts)
         # Lay out the GUI
